@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   height="160"
+   viewBox="0 0 160 160"
+   width="160"
+   version="1.1"
+   id="svg64"
+   sodipodi:docname="Investor.svg"
+   onclick="window.top.location.href='/Guide/investor.htm'">
+  <metadata>
+    <rdf:RDF>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+    </rdf:RDF>
+  </metadata>
+  <style type="text/css" >
+      <![CDATA[
+	    .investor-icon-circle {
+			fill-opacity: 0.11372549;
+			transition: all 1s ease;
+		}
+		#svg64:hover .investor-icon-circle {
+			fill-opacity: 0.2745098;
+		}
+		
+		.investor-icon-star {
+			stroke: #cdb0f1;
+			transition: all 1s ease;
+		}
+		#svg64:hover .investor-icon-star {
+			stroke: #f3d55b;
+			fill:   #f3d55b;
+		}
+		
+		.investor-icon-stardots {
+			fill: #cdb0f1;
+			transition: all 1s ease;
+		}
+		#svg64:hover .investor-icon-stardots {
+			fill:   #f3d55b;
+		}
+		
+		.investor-icon-body {
+			fill: #e8dbf6;
+			transition: all 1s ease;
+		}
+		#svg64:hover .investor-icon-body {
+			fill: #38454f;
+		}
+		
+		.investor-icon-lines {
+			stroke: #cdb0f1;
+			stroke-width: 2;
+			transition: all 1s ease;
+		}
+		
+		#svg64:hover .investor-icon-lines{
+			stroke: #546a79;
+			stroke-width: 3;
+		}
+		
+		.investor-icon-borderlines {
+			stroke: #cdb0f1;
+			transition: all 1s ease;
+		}
+		#svg64:hover .investor-icon-borderlines {
+			stroke: #38454f;
+		}
+		
+		.investor-icon-arch {
+			stroke: #cdb0f1;
+			stroke-width: 2;
+			transition: all 1s ease;
+		}
+		#svg64:hover .investor-icon-arch {
+			stroke: #8697cb;
+			stroke-width: 2.5;
+		}
+		
+		.investor-icon-flame {
+			stroke: #cdb0f1;
+			transition: all 1s ease;
+		}
+		#svg64:hover .investor-icon-flame {
+			stroke: #e57e25;
+		}
+	   ]]>
+    </style>
+  <circle
+     style="opacity:1;fill:#ffffff;fill-opacity:0.11372549;stroke:none;stroke-width:104.5136261;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0;paint-order:normal"
+     id="path4582-2"
+     cx="80"
+     cy="80"
+     r="80" />
+  <circle
+     style="opacity:1;fill:#ffffff;stroke:none;stroke-width:78.38522339;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0;paint-order:normal"
+     id="path4582"
+     cx="80"
+     cy="80"
+	 class="investor-icon-circle"
+     r="60" />
+  <g
+     transform="translate(41.6,36.5)"
+     id="g62"
+     style="fill:none;fill-rule:evenodd">
+    <path
+       d="m 70.5,13.47225 -4.5,-4.5 4.5,-4.5 4.5,4.5 z"
+       id="path2"
+	   class="investor-icon-star"
+       inkscape:connector-curvature="0"
+       style="stroke-width:2;stroke-linecap:round;stroke-linejoin:round" />
+    <path
+       d="m 70.5,4.47225 v -3 z"
+       id="path4"
+	   class="investor-icon-star"
+       inkscape:connector-curvature="0"
+       style="stroke-width:2;stroke-linecap:round;stroke-linejoin:round" />
+    <path
+       d="m 75,8.97225 h 3 z"
+       id="path6"
+	   class="investor-icon-star"
+       inkscape:connector-curvature="0"
+       style="stroke-width:2;stroke-linecap:round;stroke-linejoin:round" />
+    <path
+       d="m 70.5,13.47225 v 3 z"
+       id="path8"
+	   class="investor-icon-star"
+       inkscape:connector-curvature="0"
+       style="stroke-width:2;stroke-linecap:round;stroke-linejoin:round" />
+    <path
+       d="M 66,8.97225 H 63 Z"
+       id="path10"
+       class="investor-icon-star"
+	   inkscape:connector-curvature="0"
+       style="stroke-width:2;stroke-linecap:round;stroke-linejoin:round" />
+    <path
+       d="m 64.5,16.47225 c 0,0.828 -0.672,1.5 -1.5,1.5 -0.828,0 -1.5,-0.672 -1.5,-1.5 0,-0.828 0.672,-1.5 1.5,-1.5 0.828,0 1.5,0.672 1.5,1.5"
+       id="path12"
+	   class="investor-icon-stardots"
+       inkscape:connector-curvature="0" />
+    <path
+       d="m 3,47.97225 c 0,0.828 -0.672,1.5 -1.5,1.5 -0.828,0 -1.5,-0.672 -1.5,-1.5 0,-0.828 0.672,-1.5 1.5,-1.5 0.828,0 1.5,0.672 1.5,1.5"
+       id="path14"
+	   class="investor-icon-stardots"
+       inkscape:connector-curvature="0" />
+    <path
+       d="m 4.5,10.47225 c 0,0.828 -0.672,1.5 -1.5,1.5 -0.828,0 -1.5,-0.672 -1.5,-1.5 0,-0.828 0.672,-1.5 1.5,-1.5 0.828,0 1.5,0.672 1.5,1.5"
+       id="path16"
+	   class="investor-icon-stardots"
+       inkscape:connector-curvature="0" />
+    <path
+       d="m 21,23.97225 c 0,0.828 -0.672,1.5 -1.5,1.5 -0.828,0 -1.5,-0.672 -1.5,-1.5 0,-0.828 0.672,-1.5 1.5,-1.5 0.828,0 1.5,0.672 1.5,1.5"
+       id="path18"
+	   class="investor-icon-stardots"
+       inkscape:connector-curvature="0" />
+    <path
+       d="m 76.5,44.97225 c 0,0.828 -0.672,1.5 -1.5,1.5 -0.828,0 -1.5,-0.672 -1.5,-1.5 0,-0.828 0.672,-1.5 1.5,-1.5 0.828,0 1.5,0.672 1.5,1.5"
+       id="path20"
+	   class="investor-icon-stardots"
+       inkscape:connector-curvature="0" />
+    <path
+       d="m 15,79.47225 c 0,0.828 -0.672,1.5 -1.5,1.5 -0.828,0 -1.5,-0.672 -1.5,-1.5 0,-0.828 0.672,-1.5 1.5,-1.5 0.828,0 1.5,0.672 1.5,1.5"
+       id="path22"
+	   class="investor-icon-stardots"
+       inkscape:connector-curvature="0" />
+    <path
+       d="m 73.5,80.97225 c 0,0.828 -0.672,1.5 -1.5,1.5 -0.828,0 -1.5,-0.672 -1.5,-1.5 0,-0.828 0.672,-1.5 1.5,-1.5 0.828,0 1.5,0.672 1.5,1.5"
+       id="path24"
+	   class="investor-icon-stardots"
+       inkscape:connector-curvature="0" />
+    <path
+       d="m 54,38.97225 c -2.3415,-4.6485 -4.7955,-11.2185 -5.6535,-16.371 L 46.074,9.46275 c -0.648,-3.8865 -2.2875,-5.643 -4.7415,-8.6865 -0.837,-1.035 -2.424,-1.035 -3.2595,0 -2.4555,3.0435 -4.095,4.8 -4.743,8.6865 l -2.271,13.1385 c -0.8595,5.1525 -3.2175,11.7225 -5.559,16.371 -1.242,2.466 -2.2605,4.974 -4.527,6.552 -5.6355,3.924 -13.8465,9.9525 -14.973,16.713 v 4.4475 c 0,0.4095 0.3135,0.7485 0.7215,0.7815 l 18.645,1.5045 c 0.8745,0.0915 1.5375,0.828 1.5375,1.707 v 2.103 c 0,0.3825 0.3105,0.6915 0.6915,0.6915 h 3.0135 c 0.2865,0 0.543,0.177 0.6465,0.444 l 1.383,3.612 c 0.102,0.267 0.3585,0.444 0.645,0.444 h 12.837 c 0.2865,0 0.543,-0.177 0.645,-0.444 l 1.383,-3.612 c 0.1035,-0.267 0.36,-0.444 0.6465,-0.444 h 3.0135 c 0.3825,0 0.6915,-0.309 0.6915,-0.6915 v -2.1015 c 0,-0.879 0.6645,-1.617 1.539,-1.707 l 18.7395,-1.506 c 0.408,-0.033 0.7215,-0.372 0.7215,-0.7815 v -4.4475 c -1.1265,-6.7605 -9.4335,-12.789 -15.069,-16.713 -2.2665,-1.578 -3.189,-4.086 -4.431,-6.552 z"
+       id="path26"
+	   class="investor-icon-body"
+       inkscape:connector-curvature="0" />
+    <g
+       id="g60"
+       style="stroke:#cdb0f1;stroke-width:2;stroke-linecap:round;stroke-linejoin:round">
+      <path
+         d="m 58.431,45.52425 c -2.2665,-1.578 -3.189,-4.086 -4.431,-6.552 -2.3415,-4.6485 -4.7955,-11.2185 -5.6535,-16.371 L 46.074,9.46275 c -0.648,-3.8865 -2.2875,-5.643 -4.7415,-8.6865 -0.837,-1.035 -2.424,-1.035 -3.2595,0 -2.4555,3.0435 -4.095,4.8 -4.743,8.6865 l -2.271,13.1385 c -0.8595,5.1525 -3.2175,11.7225 -5.559,16.371 -1.242,2.466 -2.2605,4.974 -4.527,6.552 -5.6355,3.924 -13.8465,9.9525 -14.973,16.713 v 4.4475 c 0,0.4095 0.3135,0.7485 0.7215,0.7815 l 18.645,1.5045 c 0.8745,0.0915 1.5375,0.828 1.5375,1.707 v 2.103 c 0,0.3825 0.3105,0.6915 0.6915,0.6915 h 3.0135 c 0.2865,0 0.543,0.177 0.6465,0.444 l 1.383,3.612 c 0.102,0.267 0.3585,0.444 0.645,0.444 h 12.837 c 0.2865,0 0.543,-0.177 0.645,-0.444 l 1.383,-3.612 c 0.1035,-0.267 0.36,-0.444 0.6465,-0.444 h 3.0135 c 0.3825,0 0.6915,-0.309 0.6915,-0.6915 v -2.1015 c 0,-0.879 0.6645,-1.617 1.539,-1.707 l 18.7395,-1.506 c 0.408,-0.033 0.7215,-0.372 0.7215,-0.7815 v -4.4475 c -1.1265,-6.7605 -9.4335,-12.789 -15.069,-16.713 z"
+         id="path28"
+		 class="investor-icon-borderlines"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 32.904,82.47225 v 1.5"
+         id="path30"
+		 class="investor-icon-flame"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 37.404,82.47225 v 3"
+         id="path32"
+		 class="investor-icon-flame"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 41.904,82.47225 v 3"
+         id="path34"
+		 class="investor-icon-flame"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 46.404,82.47225 v 1.5"
+         id="path36"
+		 class="investor-icon-flame"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 47.298,16.53675 c -1.7865,-2.7765 -4.5435,-4.5645 -7.644,-4.5645 -3.021,0 -5.721,1.692 -7.5105,4.3485"
+         id="path38"
+		 class="investor-icon-arch"
+         inkscape:connector-curvature="0" />
+      <path
+         d="M 33,61.47225 H 46.5"
+         id="path40"
+		 class="investor-icon-lines"
+         inkscape:connector-curvature="0" />
+      <path
+         d="M 33,53.97225 H 46.5"
+         id="path42"
+		 class="investor-icon-lines"
+         inkscape:connector-curvature="0" />
+      <path
+         d="M 33,46.47225 H 46.5"
+         id="path44"
+		 class="investor-icon-lines"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 27,58.47225 v 13.5"
+         id="path46"
+		 class="investor-icon-lines"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 52.5,58.47225 v 13.5"
+         id="path48"
+		 class="investor-icon-lines"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 45,67.47225 v 3"
+         id="path50"
+		 class="investor-icon-lines"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 34.5,67.47225 v 3"
+         id="path52"
+		 class="investor-icon-lines"
+         inkscape:connector-curvature="0" />
+      <path
+         d="M 34.5,67.47225 H 45"
+         id="path54"
+		 class="investor-icon-lines"
+         inkscape:connector-curvature="0" />
+      <path
+         d="M 6,62.97225 H 27"
+         id="path56"
+		 class="investor-icon-lines"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 52.5,62.97225 h 21"
+         id="path58"
+		 class="investor-icon-lines"
+         inkscape:connector-curvature="0">
+		</path>
+    </g>
+  </g>
+</svg>

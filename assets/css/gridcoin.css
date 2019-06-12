@@ -166,10 +166,10 @@ body {
     padding-top: 140px;
 }
 .contact .row div:nth-child(1) {
-    padding-top: 5vh; 
+    padding-top: 5vh;
 }
 .contact .row div:nth-child(3) {
-    padding-top: 30px; 
+    padding-top: 30px;
 }
 /*----End Contact.htm----*/
 
@@ -239,7 +239,7 @@ body {
     padding-top: 10px;
 }
 .terminology-top .row > div {
-    width: 100%
+    width: 100%;
 }
 /*end terminology.htm*/
 /*security.erb*/
@@ -248,90 +248,32 @@ body {
 }
 /*end security.erb*/
 /*Guide pages*/
-.guide-menu-top{
-    padding-top: 120px;
+.guide-select-box {
+	background-image: linear-gradient(-45deg, #3332ae, #c46ed1);
+	width:50%;
+	margin-left:25%;
+	box-shadow: 0 0px 100px gray;
+	border-radius: 10px;
 }
-.guide-menu-top .row {
-    text-align: center;
+.guide-section-padding {
+	padding-top: 120px;
 }
-.guide-menu-top .row div {
-    padding-bottom: 10px;
-    border: 2px dotted white;
-}
-.guide-menu-top h5 {
-    font-weight: bold;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-.guide-menu-top hr {
-    border-color: white;
-}
-.guide-menu-bot {
-    padding-top: 30px;
-    padding-bottom: 10px;
-}
-.guide-menu-bot .row {
-    text-align: center;
-}
-.guide-menu-bot .row div {
-    padding-bottom: 10px;
-    border: 2px dotted white;
-}
-.guide-menu-bot h5 {
-    font-weight: bold;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-.guide-menu-bot hr {
-    border-color: white;
+.guide-spaced-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
 }
 
-/*Earn-GRC.htm*/
-.earnGRC {
-    padding-bottom: 25px;
-}
-.earnGRC div>ul {
-    list-style-type: none;
-    padding-left: 0;
-}
-.earnGRC li {
-    padding-top: 10px;
-}
-/*----End Earn-GRC.htm----*/
 
-/*investerEarn-GRC.htm*/
-.invester-earnGRC div>ul {
-    list-style-type: none;
-    padding-left: 0;
-}
-.invester-earnGRC li {
-    padding-top: 10px;
-}
-/*----End investerEarn-GRC.htm----*/
-
-/*invester-GRC-setup.htm*/
-.invest-grc-setup {
-    padding-top: 25px;
-    padding-bottom: 25px;
-}
-/*----End invester-grc-setup.htm----*/
-
-.grc-misc {
-    padding-top: 140px;
-}.grc-misc-content {
-    padding-bottom: 15px;
-}
-.grc-ref {
-    padding-top: 140px;
-}
 /*div.dropdown a {
     text-decoration:none;
   }
-  
+
   div.dropdown a.dropdown-header {
     color:black !important;
   }
-  
+
   div.footer_placeholder a {
     text-decoration:none;
     font-weight:normal;
