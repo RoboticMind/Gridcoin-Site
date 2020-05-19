@@ -338,6 +338,13 @@ body {
   .min-h-80{
       min-height: 80vh;
   }
+  .highlight { 
+      /* applies to markdwon multiline code blocks 
+      (i.e ``` ``` or four space indent)  */
+      background-color: #454d55;
+      color: white;
+      padding-left: 2px;
+   }
   .docs-container{
     padding-top: 130px;
     text-align:left;
