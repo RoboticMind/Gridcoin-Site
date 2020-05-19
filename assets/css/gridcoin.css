@@ -363,5 +363,5 @@ body {
  }
 
  .docs-container code{
-    white-space:nowrap;
+    white-space:pre;
  }
