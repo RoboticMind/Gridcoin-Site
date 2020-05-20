@@ -339,8 +339,7 @@ body {
       min-height: 80vh;
   }
   .highlight { 
-      /* applies to markdwon multiline code blocks 
-      (i.e ``` ``` or four space indent)  */
+      /* applies to markdown rendering on four space indented code block  */
       background-color: #454d55;
       color: white;
       padding-left: 2px;
