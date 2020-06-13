@@ -11,8 +11,7 @@ magnitude.
 
 Make sure you remove all existing projects from the BOINC manager before
 syncing to the pool. Then you can add new projects from the page of the
-pool
-(grcpool.com)
+pool.
 
 ## I have connections but the number of blocks does not increase. What can I do?
 
@@ -246,9 +245,6 @@ algorithms.
 
 `Proof of Stake rewards based on an annual interest rate. An interest block contains only interest and occurs when you are fully paid in your research or an investor without research activity.`  
 `Proof of Research rewards for BOINC contribution, though research activity. A PoR block is a combined payment of interest and research reward.`
-
-Have a look here for the current interest rate which will be fixed after
-October 2015 at 1.5% -\>
 
 ## The wallet says "Not Staking because you don't have mature coins" , how long does it take for coins to mature?
 
