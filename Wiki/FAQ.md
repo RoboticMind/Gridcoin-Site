@@ -176,8 +176,7 @@ therefore takes a number of weeks of consistent BOINC work on a
 specified project, for RAC to increase to sustainable levels.
 
 Have a look here:
-<http://www.gridresearchcorp.com/gridcoin/?result&t=Whitelisted_Project_Leaderboard>
-. If your hardware is not strong or compatible, you should keep away
+<http://quickmag.ml/cgi-bin/script.cgi>. If your hardware is not strong or compatible, you should keep away
 from some projects. For example, GPUGRID is very popular for high end
 GPUs so the team RAC is high. My GTX 770 got me RAC way above 10k but
 the magnitude was smaller than 10. So I decided to let others work on
@@ -187,10 +186,7 @@ There are also overrun CPU projects or projects that do not provide
 constant work unit (WU) flow.
 
 Try different projects and see whether your hardware can keep up a high
-magnitude. You can review your outcome magnitude in the Neural Network.
-Go to Advanced -\> Neural Network and search for your CPID. Then you can
-double click to drill into your participation or have a look here:
-<http://www.gridresearchcorp.com/gridcoin/?result&t=CPID_Leaderboard>
+magnitude. You can review your outcome magnitude in the wallet.
 
 Anyway, if you like a project you should support it, to keep the BOINC
 spirit up ;) I like the LHC and everything concerning CERN so I keep
@@ -201,12 +197,12 @@ Additionally, you might want to re-visit the projects you contribute to,
 you don't want to contribute CPU power to a project that allows GPUs its
 like trying to mine Bitcoin with your PC, you are competing with the
 wrong equipment. You might start by visiting this list:
-<http://wiki.gridcoin.us/Current_BOINC_Whitelist> and make sure you
+<https://boinc.berkeley.edu/projects.php> and make sure you
 aren't using your CPU for projects that have the ATI or Nvidia icon. You
 can also maximize your magnitude by finding projects that have smaller
 team RAC (just make sure they have work available) on the network report
 which you can find here:
-<http://www.gridresearchcorp.com/gridcoin/?result&t=Whitelisted_Project_Leaderboard>
+<https://stats.free-dc.org/stats.php?page=teambycpid&team=Gridcoin>
 
 # Staking
 
@@ -215,7 +211,7 @@ which you can find here:
 The stake reward is calculated by two combined
 algorithms.
 
-`Proof of Stake rewards will give you 10 GRC for each block you stack`  
+`Proof of Stake rewards will give you 10 GRC for each block you stake  
 `Proof of Research rewards for BOINC contribution, though research activity. A PoR block is a combined payment 10 GRC and research reward.`
 
 ## The wallet says "Not Staking because you don't have mature coins" , how long does it take for coins to mature?
@@ -369,11 +365,6 @@ the projects you are participating in when entering "*list cpids*" to
 the debug console of the wallet (Help -\> Debug Window -\> Console). It
 may take 24-48 hours for new accounts to be populated.
 
-If you then type `rsa` you will see your Research Savings Account
-which displays, among other information of your research status, what
-you are owed. This is the payment you can expect within the near
-future.
-
 ## What does "diff" exactly measure? What does it tell if it's high or low?
 
 Difficulty (diff) is a variable int representing how hard the PoS
@@ -402,16 +393,6 @@ coin age for your node.
 
 The network stake weight is the sum of coin age mined in the last 72
 blocks by the network.
-
-## What is RSA?
-
-The RSA is the "Research Savings Account" that keeps track of your
-overall owed amount.
-
-## What command to get RSA using the headless wallet?
-
-`rsaweight` gives the value the client will use when it forwards the
-block.
 
 ## How to call commands when starting Gridcoin Wallet on Windows?
 
@@ -672,14 +653,7 @@ can.
 ## How to get out of the loop of cycling app crashes (Microsoft Visual C++ Runtime Library Assertion failed)?
 
 Delete the content of the folder called 'txleveldb' in
-%appdata%\\Roaming\\GridcoinResearch and restart. Once your wallet is
-up, you have connections and its synching use download blocks
-feature.
-
-## I can't rebuild block chain as it stays at 0 blocks, and clicking download blocks doesn't help!
-
-Try doing this from command prompt as administrator: grcrestarter
-downloadblocks
+%appdata%\\Roaming\\GridcoinResearch and restart.
 
 ## Is there a getting started booster for new clients?
 
