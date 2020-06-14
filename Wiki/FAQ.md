@@ -16,7 +16,7 @@ pool.
 ## I have connections but the number of blocks does not increase. What can I do?
 
 If you have connections you should be fine and the wallet will sort
-itself out.
+itself out. If after a few hours your number of blocks still doesn't increase check to make sure you're using the latest version of the wallet.
 
 ## I had a magnitude for some time but it dropped to 0. What happened?
 
@@ -97,7 +97,7 @@ ticked.
 ## How long does it take to start receiving Research (mining) credit?
 
 This depends on several factors. You must have some coins to begin with,
-some have started with as few as 100 coins. You must send a "beacon",
+some have started with as few as 100 coins, but the general recommendation now is around 5000. You must send a "beacon",
 this is how your information is populated into the Neural Network which
 controls payments, see [Mining setup](Mining-Setup "wikilink"). You must
 have over 100 RAC on at least 1 whitelisted BOINC project before you can
@@ -236,15 +236,15 @@ team RAC (just make sure they have work available) on the network report
 which you can find here:
 <http://www.gridresearchcorp.com/gridcoin/?result&t=Whitelisted_Project_Leaderboard>
 
-# Staking (Interest)
+# Staking
 
 ## How is the amount of stake-reward calculated?
 
 The stake reward is calculated by two combined
 algorithms.
 
-`Proof of Stake rewards based on an annual interest rate. An interest block contains only interest and occurs when you are fully paid in your research or an investor without research activity.`  
-`Proof of Research rewards for BOINC contribution, though research activity. A PoR block is a combined payment of interest and research reward.`
+`Proof of Stake rewards will give you 10 GRC for each block you stack`  
+`Proof of Research rewards for BOINC contribution, though research activity. A PoR block is a combined payment 10 GRC and research reward.`
 
 ## The wallet says "Not Staking because you don't have mature coins" , how long does it take for coins to mature?
 
@@ -284,8 +284,6 @@ process).
 
 Well, if you encrypt your wallet and enter `walletpassphrase
 \[passphrase\] 86400`, that would unlock it for 24 hours for staking.
-Alternatively to auto-unlock for staking when you start Gridcoin see:
-<http://wiki.gridcoin.us/Wallet_Auto-unlock_for_staking>
 
 Your wallet file remains encrypted and since you do not have to enable
 external RPC access for mining anymore, it's safe aside from physical
@@ -314,18 +312,6 @@ to unlock type
 to unlock only for staking type
 
 `walletpassphrase PASSWORD TIMEOUT true`
-
-Also there is an autounlock feature. You need to encrypt your password
-and set a line in config....
-
-to encrypt your password type
-
-`execute encrypt YourPassPhrase`
-
-copy that encrypted password and add a line in the config file in
-%appdata%/Roaming/Gridcoinresearch
-
-`autounlock=YourENCRYPTEDPassPhrase`
 
 ## How do you turn staking on and off?
 
@@ -504,7 +490,7 @@ But that is a little longer :)
 ## How do I upgrade the Gridcoin wallet client?
 
 Download the installer from
-[Gridcoin.us](http://download.gridcoin.us/download/downloadstake/GridcoinResearch.msi)
+[Github](https://github.com/gridcoin-community/Gridcoin-Research/releases)
 and install over your previous installation.
 
 Deleting the appdata folder is not recommended.
@@ -576,11 +562,7 @@ Try this:
     GridcoinResearch.conf file and the folders walletbackups and testnet
     if present. For windows '%appdata%/Roaming/GridcoinResearch', For
     Linux '\~/.GridcoinResearch'
-4.  To get a quick start to Syncing, In the Gridcoin UI, Go to Rebuild
-    Block Chain -\> Download Blocks. This will download the latest
-    snapshot of the blockchain and speed things up.
-5.  You can also get the snapshot manually
-    [Here](http://download.gridcoin.us/download/downloadstake/signed/snapshot.zip)
+4.  You can also get the snapshot [Here](http://download.gridcoin.us/download/downloadstake/signed/snapshot.zip)
     and extract it to the Gridcoin data folder. For windows -\>
     '%appdata%/Roaming/GridcoinResearch', For Linux
     '\~/.GridcoinResearch.
@@ -606,7 +588,7 @@ explorer will sync up with you and your connected nodes at some point.
 
 Ensure you have upgraded to latest wallet version.
 
-Try downloading blocks (Press Rebuild Block Chain -\> Download Blocks).
+Try using the snapshot you can get it [Here](http://download.gridcoin.us/download/downloadstake/signed/snapshot.zip).
 While it downloads, delete the peers.dat in
 %appdata%\\Roaming\\GridcoinResearch - you may have a bad peer group.
 
@@ -616,12 +598,11 @@ you are not banned by good nodes because of earlier behavior.
 
 ## I certainly fell off the consensus chain, how to get back on?
 
-First ensure you are running the latest version
+1. ensure you are running the latest version
 
-Second try to restart the client
+2. try to restart the client
 
-Third try to used downloadblocks feature (Press Rebuild Blockchain -\>
-Download Blocks).
+3. try to use the [snapshot](http://download.gridcoin.us/download/downloadstake/signed/snapshot.zip).
 
 If you tried each of the steps above and are sure you are running the
 correct version
