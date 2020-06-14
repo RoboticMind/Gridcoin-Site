@@ -61,14 +61,14 @@ removed by a blockchain vote.
 Security in Gridcoin is derived from Blackcoin's industry-leading
 Proof-of-Stake.
 
-# Mining (Research)
+# Crunching (Research & Mining Equivalent)
 
-## How do I start mining?
+## How do I start crunching?
 
 First, [Get some coins](Get_some_coins "wikilink"), then see [Mining
 setup](Mining-Setup "wikilink").
 
-## My CPID is not in the neural network, What do I do?
+## My CPID is not in the network, What do I do?
 
 If you are in the pool, this is normal. If you are attempting to
 solo-stake, go through the following:
@@ -88,9 +88,7 @@ Next, go to Help -\> Debug Window, go to the Console tab and type
 This will (if successful) send a small transaction at the cost of
 -0.00011 GRC. This should add your CPID with the next superblock.
 
-To see if your CPID is included, go to the Console and type `beaconreport`. If your CPID is present, sync the Neural Network by
-typing `syncdpor2` in the Console. If successful, the output
-should be '"syncing": 1'.
+To see if your CPID is included, go to the Console and type `beaconreport`. 
 
 If your CPID is not included, wait for the next superblock. In case your
 CPID isn't included after a few superblocks, try resending your beacon
@@ -101,13 +99,12 @@ ticked.
 
 ## How long does it take to start receiving Research (mining) credit?
 
-This depends on several factors. You must have some coins to begin with,
-some have started with as few as 100 coins, but the general recommendation now is around 5000. You must send a "beacon",
-this is how your information is populated into the Neural Network which
+This depends on several factors. You must have some coins to begin with, the general recommendation currently is around 5000 (at the time of writing this that would stake on average about once a month). You must send a "beacon",
+this is how your information is populated into the Network which
 controls payments, see [Mining setup](Mining-Setup "wikilink"). You must
 have over 100 RAC on at least 1 whitelisted BOINC project before you can
 send a beacon to receive Research credit. After your CPID is in the
-Neural Network, all research credits you earn will accrue in a "savings
+Network, all research credits you earn will accrue in a "savings
 account" for a rolling 14 day period. You have up to 2 full weeks to
 stake a block without losing any research credit
 earned.
