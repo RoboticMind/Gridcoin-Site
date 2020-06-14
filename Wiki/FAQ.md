@@ -1,4 +1,9 @@
-# Most frequent questions
+---
+title: FAQ
+layout: wiki
+---
+
+# Most frequent asked questions
 
 ## I am mining for the pool but the wallet still shows INVESTOR and 0 magnitude. Is that ok?
 
