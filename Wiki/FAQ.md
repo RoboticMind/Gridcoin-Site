@@ -134,39 +134,6 @@ These lines should already suffice. Else, find more at [GridcoinResearch
 Config
 file](Gridcoinresearch-Config-File "wikilink")
 
-## I did a `rsa` to find out how much reward I can expect from PoR. What does it tell me?
-
-*This information is partly outdated and will be updated once the
-Research Age feature is live. This should be the case in the end of
-September
-2015*
-
-`    "RSA Report" : "Research Savings Account Report - Generated 1422562593"`  
-`    `  
-`    "Payment Window" : This is the look-back period`
-
-`    "CPID" : This is your CPID, the Cross Project Identifier within BOINC network`  
-`    "Magnitude" : This is your current Magnitude and will be reported the next PoR block you post`  
-`    "Payment Magnitude" : This is your Magnitude as it appears to the network based on your reported magnitude in the look-back period`  
-`    "Payment Timespan (Days)" : This the age of your CPID, the lower of the look-back period or when the first PoR block with your CPID appears in the blockchain`  
-`    "Magnitude Accuracy" : This is the number of times the network checked your magnitude against netsoft* `  
-`    "Long Term Owed (14 days)" : Magnitude * Magnitude Multiplier * 14`  
-`    "Payments (14 days)" : What your CPID has been paid in the look-back period`  
-`    "InterestPayments (14 days)" : In addition to your PoR payment any interest you are owed on stakeable coins is paid, this is a sum of those payments in the look-back period`  
-`    "Last Payment Time" : the last time you were paid a PoR payment`  
-`    "Total Owed" : Long Term Owed (14 days) - Payments (14 days) with a cap of the current maximum payment amount in the PoR Payment Schedule**`  
-`    "Next Expected Payment" : 50% of Total Owed with a cap defined in the PoR Payment Schedule`  
-`    "Daily Paid" : Payments (14 days) / look-back period`  
-`    "Daily Owed" : Long Term Owed (14 days) / look-back period`  
-`    "Registered Payment Time" : depreciated `
-
-  - Magnitude Accuracy is how many times other nodes verified your
-    magnitude by actually parsing the XML as a 3rd party. This creates a
-    weighted magnitude the consensus agrees on.
-      - Total Owed is not your RSA balance, the RSA balance is not
-        listed in the report but can be found by Long Term Owed (14
-        days) - Payments (14 days)
-
 ## How can I tell if I've mined a block?
 
 First look at the transaction list for "PoR" payments.
