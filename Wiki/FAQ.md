@@ -230,7 +230,7 @@ access or perhaps memory leakage.
 
 ## Can I stake with encrypted wallet?
 
-Yes, but you have to unlock it first. It's okay to unlock it "for
+Yes, but you have to unlock it first. It's recommended to unlock it "for
 staking only".
 
 The console walletpassphrase command does what clicking the lock button
