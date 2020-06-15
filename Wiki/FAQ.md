@@ -5,14 +5,14 @@ layout: wiki
 
 # Most frequent asked questions
 
-## I am mining for the pool but the wallet still shows INVESTOR and 0 magnitude. Is that ok?
+## I am crunching for the pool but the wallet still shows INVESTOR and 0 magnitude. Is that ok?
 
 That is perfectly normal, when pool-mining you do work for the pool's
 account and as a reward get transactions from the pool for the work you
 did. Because of this you do not work for your own CPID and have no
 magnitude.
 
-## I am mining for the pool but even though I work on projects this is not shown on the profile page of the pool. What can I do?
+## I am crunching for the pool but even though I work on projects this is not shown on the profile page of the pool. What can I do?
 
 Make sure you remove all existing projects from the BOINC manager before
 syncing to the pool. Then you can add new projects from the page of the
@@ -34,11 +34,9 @@ console.
 
 ## Why is Gridcoin (GRC) special?
 
-Gridcoin introduces an innovative consensus algorithm named
-[Proof-of-Research](Proof-of-Research "wikilink") to let miners do a
-vast variety of useful calculations. Nearly all computing power (up to
+Gridcoin allows  Nearly all computing power (up to
 98% efficiency) can be directed at beneficial scientific and medical
-research while mining Gridcoin.
+research while crunching Gridcoin.
 
 See list of [Advantages &
 Features](Advantages_&_Features "wikilink").
