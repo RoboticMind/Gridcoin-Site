@@ -264,7 +264,7 @@ only.
 
 ## Choosing BOINC projects: In BOINC, is there still a defined whitelist of "projects" or can we use any project now that has Gridcoin as a Team Name?
 
-Running "list projects" in console will list all the whitelisted
+Running "projects" in console will list all the whitelisted
 projects you could possibly contribute to that would help your Gridcoin
 Research
 wallet.
