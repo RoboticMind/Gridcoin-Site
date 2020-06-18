@@ -546,8 +546,9 @@ the technical support forum:
 
 ## I still can't get connections. How can I test, whether the net is down or my node is misconfigured?
 
-Open Windows/Linux command box and enter "telnet node.gridcoin.us
-32749". If there is no response, your Firewall might have blocked the
+First install telnet for your respective os.
+
+Then open your command box and enter `telnet addnode-us-central.cycy.me 32749`. If there is no response, your Firewall might have blocked the
 port. Otherwise your configuration might be wrong or your node has been
 temporary banned by the
 network.
