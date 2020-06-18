@@ -285,13 +285,13 @@ is no difference if you score 0 on a projects, as all are taken into
 account equally.
 
 If you insist on not being paid for a specific project, change your team
-away from team Gridcoin for that project.
+away from a recognised team for that project.
 
 # Status
 
 ## How can I see my Researching Status?
 
-If you have some BOINC credits, you are in team Gridcoin and your email
+If you have some BOINC credits, you are in a recognised team and your email
 is correct in the gridcoinresearch.conf file. You should see a list of
 
 your magnitude in each project when entering "*explainmagnitude*" to
@@ -300,8 +300,8 @@ may take 24-48 hours for new accounts to be populated.
 
 ## What does "diff" exactly measure? What does it tell if it's high or low?
 
-Difficulty (diff) is a variable int representing how hard the PoS
-algorithm has to make the next block to keep block minting periods at a
+Difficulty (diff) is a number that represents how hard the PoS
+algorithm has to work to keep block minting periods at a
 stable 90 seconds rate into the future.
 
 When a lot of researchers are eligible at the same time for a block,
@@ -309,23 +309,10 @@ diff rises to slow down minting. In contrast when no one is online
 mining, diff will drop to lure in miners to keep our blocks staking at
 once per 90 seconds.
 
-Another way to look at diff is how many distinct PoR miners are eligible
-during any one minute to stake. When diff is @20, it means 20 miners
-were on-line that minute with solutions, so diff is rising to keep
-emission steady.
-
 It's very similar to PoW diff. The big advantage we have in this version
 with PoR is we can accommodate thousands of new miners without seizing
 the chain with the RSA (Research Savings Account) and the 90 seconds
 block times.
-
-## What does stake weight mean?
-
-The personal stake weight it how many coins are eligible for staking \*
-coin age for your node.
-
-The network stake weight is the sum of coin age mined in the last 72
-blocks by the network.
 
 ## How to call commands when starting Gridcoin Wallet on Windows?
 
@@ -417,9 +404,6 @@ The reason why you should never dump private keys or wallet is that if
 your PC is compromised, you probably won't know it and the moment you
 dump your keys, someone on the listening side will get your private key,
 and therefore get your coins.
-
-Yes. You will lose your coin stake, and it will take 4 hours for coins
-to start staking again.
 
 ## What should I do to recover an old backup of my wallet?
 
@@ -551,10 +535,6 @@ stored one directory down also. You will have to start
 Gridcoinresearch.exe with -testnet flag, for example due to the creation
 of a shortcut with this flag.
 
-For Windows, simply add testnet=1 to gridcoinresearch.conf file. The
-wallet will automatically create the necessary directories. To revert to
-normal wallet, change it to testnet=0.
-
 # Troubleshoot
 
 ## After reloading blockchain some coins are no longer in my wallet
@@ -578,10 +558,10 @@ stakeable coins are mature.
 3. The wallet has to be fully unlocked (untick "for staking only")
 until it automatically sends a beacon. You can force the wallet to do so
 once it recognizes your CPID. Go to the debug console and do
-`advertisebeacon force`.
+`advertisebeacon`.
 
 4. Once #3 is fulfilled, that node should be in the Network
-within 12 hours.
+within 25 hours.
 
 Check the balance first and see how long the node has been online. Let
 the wallet run as often as you can, as it will increase your chance of staking.
