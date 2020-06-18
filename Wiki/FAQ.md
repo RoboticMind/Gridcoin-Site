@@ -34,8 +34,7 @@ console.
 
 ## Why is Gridcoin (GRC) special?
 
-Gridcoin allows  Nearly all computing power (up to
-98% efficiency) can be directed at beneficial scientific and medical
+Almost all of your computing power can be directed at beneficial scientific and medical
 research while crunching Gridcoin.
 
 See list of [Advantages &
@@ -119,11 +118,6 @@ Please check here [this page](https://gridcoin.us/Wiki/Config-File)
 
 First look at the transaction list for "PoR" payments.
 
-If you don't have any PoR yet, do a "list mymagnitude" in the debug
-console and look for the savings account balance "owed". That will be
-what you accrue for your first payment. It has to be higher than the
-subsidyschedule max block / 10, IE 40 right now in order to actually
-generate.
 
 ## Reward calculation: what is RAC?
 
@@ -131,11 +125,7 @@ generate.
 
 ## Reward calculation: what is magnitude?
 
-The reward calculation is based on the relative contribution of a user
-to the total contribution from other crunchers earning Gridcoin. This is being calculated
-within every project and the sum of the relative contributions is the
-magnitude which is being used to calculate the reward. Besides the
-research rewards, each mined block contains interest.
+Magnitude is calculated separately for each project. When calculating research rewards, a user 's magnitude across every project is added together.
 
 ## Is it possible to join a pool?
 
@@ -178,15 +168,11 @@ which you can find here:
 
 ## How is the amount of stake-reward calculated?
 
-The stake reward is calculated by two combined
-algorithms.
-
-`Proof of Stake rewards will give you 10 GRC for each block you stake  
-`Proof of Research rewards for BOINC contribution, though research activity. A PoR block is a combined payment 10 GRC and research reward.`
+Proof of Stake rewards will give you 10 GRC for each block you stake. If you are not in investor mode you will also receive your BOINC rewards on top of the 10 in the same block.
 
 ## The wallet says "Not Staking because you don't have mature coins" , how long does it take for coins to mature?
 
-It takes about 16 hours for GRC to become mature from the time of
+It takes 16 hours for GRC to become mature from the time of
 arrival in your wallet. After a specific set of coins have Staked, they
 will need to mature again for 16 hours before they can Stake again.
 
@@ -217,16 +203,6 @@ Yes that is normal, because your node builds up a set of stakeable coins
 and once you stake them the process takes about 4 more hours to get new
 mature coins, unless some have been found in between (it's a constant
 process).
-
-## Do I have to leave my wallet unencrypted to be able to stake?
-
-If you encrypt your wallet, you will need to unlock it to be able to stake.
-If you only want to stake, make sure to leave unlock for staking checked when unlocking the wallet.
-\[passphrase\] 86400`, that would unlock it for 24 hours for staking.
-
-Your wallet file remains encrypted and since you do not have to enable
-external RPC access for mining anymore, it's safe aside from physical
-access or perhaps memory leakage.
 
 ## Can I stake with encrypted wallet?
 
@@ -296,24 +272,9 @@ machine (press "Update" in the BOINC software when a project which shows
 0 contribution is
 selected).
 
-## BOINC: For our accounts, we used to have to use our Gridcoin address as our usernames for those accounts. Is that the case still, and if so, should we change our address info over to the "new" client addresses? Like under BAM/BOINC Stats, our stats/info isn't searchable via e-mail address but is via username. Just wondering what we can/should use for going forward.
-
-Changing your BOINC name to a Gridcoin Address is not needed anymore.
-Now just set "email=" in the gridcoinresearch.config file, ensure you
-are in team Gridcoin in each project, that should do
-it.
-
 ## Instead of discussing every single BOINC project to be added, is there any shared guidelines to be used for accepting or rejecting them?
 
-No, but there may be a defined process one day. Currently, decisions are
-placed individually due to a vote within the blockchain. The discussed
-project is then added or deleted from the dynamic whitelist.
-
-As far as hardware requirements, projects should be able to run on both
-64 and 32 bit OSes. Some BOINC projects are limited to architecture. We
-definitely need a set of guidelines to follow before adding a project to
-the whitelist. It is favorable to choose projects that are accessible
-to the masses.
+https://github.com/gridcoin-community/Gridcoin-Tasks/issues/227
 
 ## How do I delete a project from my list of CPIDs?
 
