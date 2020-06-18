@@ -294,7 +294,7 @@ away from team Gridcoin for that project.
 If you have some BOINC credits, you are in team Gridcoin and your email
 is correct in the gridcoinresearch.conf file. You should see a list of
 
-the projects you are participating in when entering "*list cpids*" to
+your magnitude in each project when entering "*explainmagnitude*" to
 the debug console of the wallet (Help -\> Debug Window -\> Console). It
 may take 24-48 hours for new accounts to be populated.
 
