@@ -362,14 +362,14 @@ showblock blocknumber
 
 And compare the details with details from explorer.
 
-Btw, just for fyi, if you do want to get a block by hash, you would have
+If you do want to get a block by hash, you would have
 to:
 
 getblockhash blocknumber
 
 getblock blockhash
 
-But that is a little longer :)
+But that is a little longer
 
 # Upgrade
 
@@ -379,7 +379,8 @@ Download the installer from
 [Github](https://github.com/gridcoin-community/Gridcoin-Research/releases)
 and install over your previous installation.
 
-Deleting the appdata folder is not recommended.
+Do not delete the appdata\\GridcoinResearch folder. This contains
+data like your keys which let you access your coins
 
 # Backup
 
@@ -426,12 +427,15 @@ Backup wallet.dat.
 
 Look for the %appdata%\\Roaming\\GridcoinResearch\\walletbackups folder.
 
-Find the youngest backup.
+Find the most recent backup.
+
+Shutdown the wallet
+
 
 Copy it to the %appdata%\\Roaming\\GridcoinResearch directory and rename
 it wallet.dat.
 
-Restart.
+Restart the wallet.
 
 If you have no backup you will have to do the -salvagewallet as starting
 option.
@@ -460,7 +464,7 @@ for sync problem if it didn't work.
 ## How could I test whether I am in sync with the network?
 
 Compare your highest block number with the one listed at
-<http://www.gridresearchcorp.com/gridcoin/>
+[gridcoinstats.eu](https://gridcoinstats.eu/block)
 
 When the explorer is clearly ahead of you (\> 9 blocks) and increasing
 about every 90 seconds, your node is most likely on the fork. You can
