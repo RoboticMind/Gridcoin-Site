@@ -106,9 +106,9 @@ account" for a rolling 14 day period. You have up to 2 full weeks to
 stake a block without losing any research credit
 earned.
 
-## Is it true that someone would not lose reward if blocks are created on a fork?
+## What happens if I stake on a fork?
 
-If you stake on a fork, the stake you see is not actually legitimate. When your wallet figures out that it is on a fork, you will see these rewards disappear since they shouldn't have shown up in the first place. This process happens automatically. While frustrating, once off of the fork, you are still able to stake again. 
+When you stake on a fork, the stake you see is not actually legitimate. When your wallet figures out that it is on a fork, you will see these rewards disappear as the wallet corrects itself. This process happens automatically. While frustrating, once off of the fork, you are still able to stake again. 
 
 ## What should I put in my config-file for Gridcoin-Research?
 
@@ -116,7 +116,9 @@ Please check here [this page](https://gridcoin.us/Wiki/Config-File)
 
 ## How can I tell if I've mined a block?
 
-First look at the transaction list for "PoR" payments.
+If you are using the GUI you will see a transaction with a gold icon. 
+
+You can also look up your address on a block explorer.
 
 You can also lookup your address on a block explorer.
 
