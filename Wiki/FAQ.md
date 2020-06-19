@@ -83,7 +83,7 @@ Next, go to Help -\> Debug Window, go to the Console tab and type
 `advertisebeacon` without the quotes.
 
 This will (if successful) send a small transaction at the cost of
--0.00011 GRC. This should add your CPID with the next superblock.
+1 GRC. This should add your CPID with the next superblock.
 
 To see if your CPID is included, go to the Console and type `beaconreport`. 
 
@@ -338,13 +338,11 @@ Create a shortcut that links to the actual GRC program in Program Files
 directory and add the function at the end of the target, then properly
 name them for the function to execute:
 
-Example with -rescan option: Make a new shortcut to "C:\\Program Files
-(x86)\\GridcoinResearch\\gridcoinresearch.exe" or "C:\\Program
-Files\\GridcoinResearch\\gridcoinresearch.exe"
+Example with -rescan option: Make a new shortcut to 
+`"C:\Program Files\GridcoinResearch\gridcoinresearch.exe"`
 
 Add the command to execute at the end of the 'Target:' line like
-"C:\\Program Files (x86)\\GridcoinResearch\\gridcoinresearch.exe"
--rescan .
+`"C:\Program Files\GridcoinResearch\gridcoinresearch.exe" -rescan`
 
 Rename the shortcut to something like 'GRC rescan'.
 
