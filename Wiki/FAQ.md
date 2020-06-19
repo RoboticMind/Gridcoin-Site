@@ -10,31 +10,6 @@ You will see a lot of references to the data folder in this FAQ here are the def
 |-|-|-|
 | `%appdata%/GridcoinResearch` | `~/.GridcoinResearch` | `~/Library/Application Support/GridcoinResearch` |
 
-## I am crunching for the pool but the wallet still shows INVESTOR and 0 magnitude. Is that ok?
-
-That is perfectly normal, when pool-mining you do work for the pool's
-account and as a reward get transactions from the pool for the work you
-did. Because of this you do not work for your own CPID and have no
-magnitude.
-
-## I am crunching for the pool but even though I work on projects this is not shown on the profile page of the pool. What can I do?
-
-Make sure you remove all existing projects from the BOINC manager before
-syncing to the pool. Then you can add new projects from the page of the
-pool.
-
-## I have connections but the number of blocks does not increase. What can I do?
-
-If you have connections you should be fine and the wallet will sort
-itself out. If after a few hours your number of blocks still doesn't increase check to make sure you're using the latest version of the wallet.
-
-## I had a magnitude for some time but it dropped to 0. What happened?
-
-The reason for this is most likely that you have to resend your beacon,
-which should be done every 6 months. For this either unlock your wallet
-so that it sends automatically or type `advertisebeacon` in the
-console.
-
 # Gridcoin & Science
 
 ## Why is Gridcoin (GRC) special?
@@ -99,7 +74,7 @@ CPID isn't included after a few superblocks, try resending your beacon
 Lock your wallet again, but this time unlock it with "for staking only"
 ticked.
 
-## How long does it take to start receiving Research (mining) credit?
+## How long does it take to start receiving Research (Crunching) credit?
 
 This depends on several factors. You must have some coins to begin with, the general recommendation currently is around 5000 (at the time of writing this that would stake on average about once a month). You must send a "beacon",
 this is how your information is populated into the Network which
@@ -110,10 +85,6 @@ Network, all research credits you earn will accrue in a "savings
 account" for a rolling 14 day period. You have up to 2 full weeks to
 stake a block without losing any research credit
 earned.
-
-## What happens if I stake on a fork?
-
-When you stake on a fork, the stake you see is not actually legitimate. When your wallet figures out that it is on a fork, you will see these rewards disappear as the wallet corrects itself. This process happens automatically. While frustrating, once off of the fork, you are still able to stake again. 
 
 ## What should I put in my config-file for Gridcoin-Research?
 
@@ -131,13 +102,14 @@ You can also look up your address on a block explorer.
 
 ## Reward calculation: what is magnitude?
 
-Magnitude is calculated separately for each project. When calculating research rewards, a user 's magnitude across every project is added together.
+Magnitude is calculated separately for each project. When calculating research rewards, a user's magnitude across every project is added together.
 
-## Is it possible to join a pool?
+## I had a magnitude for some time but it dropped to 0. What happened?
 
-Yes, there are currently 2 operational pools:
-* [GRCPool](https://grcpool.com/)
-* [Arikado Pool](https://grc.arikado.ru/)
+The reason for this is most likely that you have to resend your beacon,
+which should be done every 6 months. For this either unlock your wallet
+so that it sends automatically or type `advertisebeacon` in the
+console.
 
 ## I am BOINCing nonstop but my magnitude is very low. What can I do?
 
@@ -165,6 +137,26 @@ you don't want to contribute CPU power to a project that allows GPUs its
 like trying to mine Bitcoin with your PC, you are competing with the
 wrong equipment. You might start by visiting the [BOINC project list](https://boinc.berkeley.edu/projects.php) and make sure you
 aren't using your CPU for projects that have the Radeon or Nvidia icon.
+
+# Pool Crunching
+
+## Is it possible to join a pool?
+
+Yes, there are currently 2 operational pools:
+* [GRCPool](https://grcpool.com/)
+* [Arikado Pool](https://grc.arikado.ru/)
+
+## I am crunching for the pool but the wallet still shows INVESTOR and 0 magnitude. Is that ok?
+
+That is perfectly normal, when pool-mining you do work for the pool's
+account and as a reward get transactions from the pool for the work you
+did. Because of this you do not work for your own CPID and have no
+magnitude.
+
+## I am crunching for the pool but even though I work on projects this is not shown on the profile page of the pool. What can I do?
+
+Make sure you remove all existing projects, which use your account, from the BOINC manager before
+syncing to the pool. 
 
 # Staking
 
@@ -237,6 +229,10 @@ to unlock only for staking type
 where timeout is a number of seconds, e.g. 10000 and true is a toggle
 that unlocks the wallet for staking
 only.
+
+## What happens if I stake on a fork?
+
+When you stake on a fork, the stake you see is not actually legitimate. When your wallet figures out that it is on a fork, you will see these rewards disappear as the wallet corrects itself. This process happens automatically. While frustrating, once off of the fork, you are still able to stake again. 
 
 # BOINC
 
@@ -362,9 +358,7 @@ But that is a little longer
 
 ## How do I upgrade the Gridcoin wallet client?
 
-Download the installer from
-[Github](https://github.com/gridcoin-community/Gridcoin-Research/releases)
-and install over your previous installation.
+Download the installer from [Github](https://github.com/gridcoin-community/Gridcoin-Research/releases) or your package manager and install over your previous installation.
 
 **Do not delete the data folder.** This contains important data like your keys which let you access your coins.
 
@@ -372,8 +366,7 @@ and install over your previous installation.
 
 ## What can I do if I didn't save a prior version of wallet.dat?
 
-The wallet has an automated backup in place that will make daily backups
-(once every 24 hours) into walletbackups in the data folder.
+The wallet has an automated backup in place that will make backups every 24 hours into the walletbackups folder inside of your data folder.
 
 ## Which is the best practice to save my new wallet?
 
@@ -416,16 +409,17 @@ If it still doesn't start you can try using the -salvagewallet flag.
 
 Try this:
 
-1.  Make sure Gridcoin is running as an administrator.
-2.  Close the client
-3.  Clean out your Gridcoin data folder EXCEPT wallet.dat, your
+1.  Close the client
+2.  Clean out your Gridcoin data folder EXCEPT wallet.dat, your
     GridcoinResearch.conf file and the folders walletbackups and testnet, if present.
-4.  You can also get the snapshot [Here](http://download.gridcoin.us/download/downloadstake/signed/snapshot.zip)
+3.  You can also get the snapshot [Here](http://download.gridcoin.us/download/downloadstake/signed/snapshot.zip)
     and extract it to the Gridcoin data folder.
 
 There is also an [official
 thread](https://cryptocointalk.com/topic/20303-gridcoin-proof-of-research-connection-sync-problem-thread/)
 for sync problem if it didn't work.
+
+You can also try running the wallet as an administrator.
 
 ## How could I test whether I am in sync with the network?
 
@@ -445,12 +439,13 @@ explorer will sync up with you and your connected nodes at some point.
 Ensure you are running the latest wallet version.
 
 You can try using the snapshot which you can get [Here](http://download.gridcoin.us/download/downloadstake/signed/snapshot.zip).
+
 While it downloads, delete the peers.dat in your data folder - you may have a bad peer group.
 
 You can also try to reboot your router to attempt to get a new IP, to make sure
 you are not banned by good nodes because of earlier behavior.
 
-## I still can't get connections. How can I test, whether the net is down or my node is misconfigured?
+## I can't get connections. How can I test whether the net is down or my node is misconfigured?
 
 First install telnet for your respective os.
 
@@ -460,6 +455,8 @@ temporary banned by the
 network.
 
 ## When syncing from zero, the sync gets stuck or pauses for an untimely duration. What to do next?
+
+Make sure your on the latest wallet version.
 
 Syncing may seem to take longer with growing blockchain. If you get
 stuck use 'reboot client'
