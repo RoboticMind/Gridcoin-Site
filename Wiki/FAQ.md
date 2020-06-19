@@ -3,7 +3,12 @@ title: FAQ
 layout: wiki
 ---
 
-# Most frequent asked questions
+# Frequently Asked Questions
+
+You will see a lot of references to the data folder in this FAQ here are the default locations:
+| Windows | Linux | MacOS |
+|-|-|-|
+| `%appdata%/GridcoinResearch` | `~/.GridcoinResearch` | `~/Library/Application Support/GridcoinResearch` |
 
 ## I am crunching for the pool but the wallet still shows INVESTOR and 0 magnitude. Is that ok?
 
@@ -381,15 +386,14 @@ Download the installer from
 [Github](https://github.com/gridcoin-community/Gridcoin-Research/releases)
 and install over your previous installation.
 
-Do not delete the appdata\\GridcoinResearch folder. This contains
-data like your keys which let you access your coins
+**Do not delete the data folder.** This contains important data like your keys which let you access your coins.
 
 # Backup
 
 ## What can I do if I didn't save a prior version of wallet.dat?
 
 The wallet has an automated backup in place that will make daily backups
-(once every 24 hours) into %appdata%\\gridcoinresearch\\walletbackups.
+(once every 24 hours) into walletbackups in the data folder.
 
 ## Which is the best practice to save my new wallet?
 
@@ -420,13 +424,10 @@ The quick and easy way.
 2. Look for the walletbackups folder.
 3. Find the most recent backup.
 4. Shutdown the wallet
-5. Copy it to the data directory and rename it to wallet.dat.
+5. Copy it to the the data directory and rename it to wallet.dat.
 6. Restart the wallet.
 
-Restart the wallet.
-
-If you have no backup you will have to do the -salvagewallet as starting
-option.
+If it still doesn't start you can try using the -salvagewallet flag.
 
 # Sync
 
@@ -457,41 +458,15 @@ When you are clearly ahead of the explorer and / or the explorer has
 stopped incrementing on a regular basis, it's more likely that the
 explorer will sync up with you and your connected nodes at some point.
 
-## How to get back in sync fast?
+## How do I get in sync fast?
 
-Ensure you have upgraded to latest wallet version.
+Ensure you are running the latest wallet version.
 
-Try using the snapshot you can get it [Here](http://download.gridcoin.us/download/downloadstake/signed/snapshot.zip).
-While it downloads, delete the peers.dat in
-%appdata%\\Roaming\\GridcoinResearch - you may have a bad peer group.
+You can try using the snapshot which you can get [Here](http://download.gridcoin.us/download/downloadstake/signed/snapshot.zip).
+While it downloads, delete the peers.dat in your data folder - you may have a bad peer group.
 
-While the client restarts after the download blocks, you can also try to
-switch off/on your router if you get a new IP with that, to make sure
+You can also try to reboot your router to attempt to get a new IP, to make sure
 you are not banned by good nodes because of earlier behavior.
-
-## I certainly fell off the consensus chain, how to get back on?
-
-1. ensure you are running the latest version
-
-2. try to restart the client
-
-3. try to use the [snapshot](http://download.gridcoin.us/download/downloadstake/signed/snapshot.zip).
-
-If you tried each of the steps above and are sure you are running the
-correct version
-
-Backup your wallet.dat file
-
-Close the Gridcoin-Research wallet
-
-In the roaming folder delete all but gridcoinresearch.conf and
-wallet.dat and the wallet backup folder.
-
-Check your [List of Addnodes](List_of_Addnodes "wikilink")
-
-Start Gridcoin-Research and wait. If you continue to have trouble visit
-the technical support forum:
-<https://cryptocointalk.com/forum/2380-technical-support/>
 
 ## I still can't get connections. How can I test, whether the net is down or my node is misconfigured?
 
@@ -523,7 +498,7 @@ Gridcoin Foundation and can no longer be claimed.
 
 ## Where can I find the source?
 
-<https://github.com/gridcoin-community/Gridcoin-Research>
+[On Github](https://github.com/gridcoin-community/Gridcoin-Research)
 
 ## How could I participate in testnet?
 
@@ -533,20 +508,14 @@ gridcoinresearch.conf down a level in the data folder
 and everything works almost the same, except the diff rules make it
 slightly easier. And of course, all the money is fake. The data files are
 stored one directory down also. You will have to start
-Gridcoinresearch.exe with -testnet flag, for example due to the creation
-of a shortcut with this flag.
+the wallet with the -testnet flag.
 
 # Troubleshoot
 
-## After reloading blockchain some coins are no longer in my wallet
+## Some of my coins have disappeared.
 
 Try running the client with "-rescan" or run the console command
 "repairwallet".
-
-## My wallet has smaller balance than last time. How to fix?
-
-Try starting Gridcoin with option '-rescan'. Go in debug and do
-"repairwallet" or "rebuilt block chain" to fix the local amount.
 
 ## What needs to happen to be added to the chain as a newbie?
 
@@ -570,31 +539,4 @@ the wallet run as often as you can, as it will increase your chance of staking.
 ## How to get out of the loop of cycling app crashes (Microsoft Visual C++ Runtime Library Assertion failed)?
 
 Delete the content of the folder called 'txleveldb' in
-%appdata%\\Roaming\\GridcoinResearch and restart.
-
-## Is there a getting started booster for new clients?
-
-New node setups can show connections icon (even at zero connections) but
-stick at 0% sync progress. Hover over where the green tick would be when
-synced to confirm.
-
-Turn off BOINC or set CPU to below 100%.
-
-Use download blocks and wallet restart and/or gracefully close wallet
-(Ctrl Q), copy a populated peers.dat (bigger than 2kB in files size) and
-paste it as an overwrite to %appdata%/gridcoinresearch (you can type
-this in Windows search field) and then start wallet (elevated; right
-click, run as administrator).
-
-When it starts back up it takes a while so be patient and if it looks
-like it is not responding, just ignore it or click 'wait for the program
-to respond'. You should eventually see the connections icon showing zero
-connections and it will flash very briefly on. You can check the debug
-log and see an entry 'socket closed' when the flash happens. Then use
-download blocks and after that process you should have syncing right
-upto 'up to date/100%). The debug log should show something like
-<http://pastebin.com/1uEpDB79>
-
-If you don't get syncing after doing download blocks, check the size of
-your peers.dat. If it still 2kB then it did not overwrite or save and
-you will need to repeat the process.
+the data folder and restart.
