@@ -112,14 +112,13 @@ When you stake on a fork, the stake you see is not actually legitimate. When you
 
 ## What should I put in my config-file for Gridcoin-Research?
 
-Please check here [this page](https://gridcoin.us/Wiki/Config-File)
+Please check [the config file page](Config-File "wikilink")
 
 ## How can I tell if I've mined a block?
 
 If you are using the GUI you will see a transaction with a gold icon. 
 
 You can also look up your address on a block explorer.
-
 
 ## Reward calculation: what is RAC?
 
@@ -131,8 +130,9 @@ Magnitude is calculated separately for each project. When calculating research r
 
 ## Is it possible to join a pool?
 
-Yes, there are pools at <https://grcpool.com/> and
-<https://grc.arikado.ru/>
+Yes, there are currently 2 operational pools:
+* [GRCPool](https://grcpool.com/)
+* [Arikado Pool](https://grc.arikado.ru/)
 
 ## I am BOINCing nonstop but my magnitude is very low. What can I do?
 
@@ -158,9 +158,8 @@ spirit up.
 Additionally, you might want to re-visit the projects you contribute to,
 you don't want to contribute CPU power to a project that allows GPUs its
 like trying to mine Bitcoin with your PC, you are competing with the
-wrong equipment. You might start by visiting this list:
-<https://boinc.berkeley.edu/projects.php> and make sure you
-aren't using your CPU for projects that have the ATI or Nvidia icon. You
+wrong equipment. You might start by visiting the [BOINC project list](https://boinc.berkeley.edu/projects.php) and make sure you
+aren't using your CPU for projects that have the Radeon or Nvidia icon. You
 can also maximize your magnitude by finding projects that have smaller
 team RAC (just make sure they have work available) on the network report
 which you can find here:
