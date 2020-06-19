@@ -279,7 +279,7 @@ https://github.com/gridcoin-community/Gridcoin-Tasks/issues/227
 We used to support detaching but a vote was made to calculate the magnitude
 on every project you still have valid RAC on; so GRC does not support
 detaching projects (it was supposed to prevent gaming the system). There
-is no difference if you score 0 on projects, as all are taken into
+is no difference if you score 0 on a project, as all are taken into
 account equally.
 
 If you insist on not being paid for a specific project, change your team
