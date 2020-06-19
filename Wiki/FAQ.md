@@ -6,9 +6,9 @@ layout: wiki
 # Frequently Asked Questions
 
 You will see a lot of references to the data folder in this FAQ here are the default locations:
-| Windows                      | Linux                 | MacOS |
-|------------------------------|-----------------------|-------|
-| `%appdata%/GridcoinResearch` | `~/.GridcoinResearch` |       |
+| Windows | Linux | MacOS |
+|-|-|-|
+| `%appdata%/GridcoinResearch` | `~/.GridcoinResearch` | `~/Library/Application Support/GridcoinResearch` |
 
 ## I am crunching for the pool but the wallet still shows INVESTOR and 0 magnitude. Is that ok?
 
