@@ -400,11 +400,6 @@ The quick and easy way.
     somethingelse.bak to wallet.dat
 8.  Start client and enjoy your new wallet.
 
-The reason why you should never dump private keys or wallet is that if
-your PC is compromised, you probably won't know it and the moment you
-dump your keys, someone on the listening side will get your private key,
-and therefore get your coins.
-
 ## What should I do to recover an old backup of my wallet?
 
 Backup wallet.dat.
