@@ -159,11 +159,7 @@ Additionally, you might want to re-visit the projects you contribute to,
 you don't want to contribute CPU power to a project that allows GPUs its
 like trying to mine Bitcoin with your PC, you are competing with the
 wrong equipment. You might start by visiting the [BOINC project list](https://boinc.berkeley.edu/projects.php) and make sure you
-aren't using your CPU for projects that have the Radeon or Nvidia icon. You
-can also maximize your magnitude by finding projects that have smaller
-team RAC (just make sure they have work available) on the network report
-which you can find here:
-<https://stats.free-dc.org/stats.php?page=teambycpid&team=Gridcoin>
+aren't using your CPU for projects that have the Radeon or Nvidia icon.
 
 # Staking
 
