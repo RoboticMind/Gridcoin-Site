@@ -376,19 +376,20 @@ If it still doesn't start you can try using the -salvagewallet flag.
 
 ## I have lots of connections, but synchronizing stopped at a certain block. What should I do?
 
-Try this:
+Just try to just wait it out the wallet should automatically fix itself.
+
+If it still hasn't gone up after a few hours try this:
 
 1.  Close the client
 2.  Clean out your Gridcoin data folder EXCEPT for wallet.dat, your
     GridcoinResearch.conf file and the folders walletbackups and testnet, if present.
-3.  You can also get the snapshot [Here](http://download.gridcoin.us/download/downloadstake/signed/snapshot.zip)
-    and extract it to the Gridcoin data folder.
+3.  Restart the wallet and wait for it to sync. If you don't want to wait you can also use the snapshot which you can get [Here](http://download.gridcoin.us/download/downloadstake/signed/snapshot.zip).
+
+You can also try running the wallet as an administrator.
 
 There is also an [official
 thread](https://cryptocointalk.com/topic/20303-gridcoin-proof-of-research-connection-sync-problem-thread/)
 for sync problem if it didn't work.
-
-You can also try running the wallet as an administrator.
 
 ## How could I test whether I am in sync with the network?
 
