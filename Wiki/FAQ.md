@@ -186,10 +186,7 @@ it.
 
 ## When I get an interest/mining payment, a portion of my GRC looks to be moving from my total balance into the "Stake" line of the wallet balance. Is that correct?
 
-Every 4 hours the wallet is on-line, it looks for old coins that can
-accrue interest and moves them from 'Balance' to 'Stake' then it works
-on staking. Once staked, it moves the staked balance back to
-balance.
+Yes. It means that those coins are currently on cooldown so they aren't able to stake for the next 16 hours.
 
 ## I lose my stakeweight after receiving PoR? The "maturecoin-creationprocess" is starting again after each mined PoR?
 
