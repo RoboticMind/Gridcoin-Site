@@ -253,13 +253,12 @@ propagate.
 ## I use BOINC with one username but on a few machines - is it enough to have one wallet with the proper boinc\_project\_email address, or do I have to have a separate wallet on each machine?
 
 You only need one wallet for each BOINC account/CPID (Cross Project
-Identifier). You can use BAM (BOINC Account Manager) to combine more
-projects in one CPID. Here is a guide
-<http://grcnation.com/en/bam-boinc-account-manager/> . Your reward is
-based on the credit in your BOINC account/CPID. You can point as many
+Identifier). You can use an account manager to combine more
+projects in one CPID. Your reward is
+based on the credit on your CPID. You can point as many
 machines and resources to a single account as you want and only need a
 single wallet to receive your reward. You do have to set "email=" in the
-config file to your BOINC/BAM email and must be running the wallet on a
+config file to your BOINC email and must be running the wallet on a
 machine that has BOINC installed and is associated with all BOINC
 projects you would like to get credit for (they can be set to not
 retrieve new work) and each project must show at least some RAC on that
@@ -303,11 +302,6 @@ When a lot of researchers are eligible at the same time for a block,
 diff rises to slow down minting. In contrast, when no one is online
 mining, diff will drop to lure in miners to keep our blocks staking at
 once per 90 seconds.
-
-It's very similar to PoW diff. The big advantage we have in this version
-with PoR is we can accommodate thousands of new miners without seizing
-the chain with the RSA (Research Savings Account) and the 90 seconds
-block times.
 
 ## How to call commands when starting Gridcoin Wallet on Windows?
 
@@ -475,13 +469,9 @@ Gridcoin Foundation and can no longer be claimed.
 
 ## How could I participate in testnet?
 
-Testnet is just like production (regular wallet), except it uses a
-different port and a different directory; so you copy your
-gridcoinresearch.conf down a level in the data folder
-and everything works almost the same, except the diff rules make it
-slightly easier. And of course, all the money is fake. The data files are
-stored one directory down also. You will have to start
-the wallet with the -testnet flag.
+Start the client with the -testnet flag.
+
+[More info can be found here.](Testnet "wikilink")
 
 # Troubleshoot
 
