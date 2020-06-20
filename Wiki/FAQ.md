@@ -42,8 +42,9 @@ Proof-of-Stake.
 
 ## How do I start crunching?
 
-First, [Get some coins](Get_some_coins "wikilink"), then see [Mining
-setup](Mining-Setup "wikilink").
+Consult these guides: 
+* [Solo](https://gridcoin.us/Guides/boinc-install.htm)
+* [Pool](https://gridcoin.us/Guides/pool.htm)
 
 ## My CPID is not in the network, What do I do?
 
@@ -73,18 +74,6 @@ CPID isn't included after a few superblocks, try resending your beacon
 
 Lock your wallet again, but this time unlock it with "for staking only"
 ticked.
-
-## How long does it take to start receiving Research (Crunching) credit?
-
-This depends on several factors. You must have some coins, to begin with, the general recommendation currently is around 5000 (at the time of writing this that would stake on average about once a month). You must send a "beacon",
-this is how your information is populated into the Network which
-controls payments, see [Mining setup](Mining-Setup "wikilink"). You must
-have over 100 RAC on at least 1 whitelisted BOINC project before you can
-send a beacon to receive Research credit. After your CPID is in the
-Network, all research credits you earn will accrue in a "savings
-account" for a rolling 14 day period. You have up to 2 full weeks to
-stake a block without losing any research credit
-earned.
 
 ## What should I put in my config-file for Gridcoin-Research?
 
@@ -184,13 +173,6 @@ it.
 ## When I get an interest/mining payment, a portion of my GRC looks to be moving from my total balance into the "Stake" line of the wallet balance. Is that correct?
 
 Yes. It means that those coins are currently on cooldown so they aren't able to stake for the next 16 hours.
-
-## I lose my stakeweight after receiving PoR? The "maturecoin-creationprocess" is starting again after each mined PoR?
-
-Yes that is normal because your node builds up a set of stakeable coins
-and once you stake them the process takes about 4 more hours to get new
-mature coins, unless some have been found in between (it's a constant
-process).
 
 ## Can I stake with an encrypted wallet?
 
@@ -476,25 +458,6 @@ Start the client with the -testnet flag.
 
 Try running the client with "-rescan" or run the console command
 "repairwallet".
-
-## What needs to happen to be added to the chain as a newbie?
-
-1. All the normal prerequisites mentioned: RAC > 100 in at least 1 project, correct email in the
-gridcoinresearch.conf, being in a recognised team.
-
-2. A balance that is > 5000 GRC is recommended. Staking at a minimum of 16 hours so the
-stakeable coins are mature.
-
-3. The wallet has to be fully unlocked (untick "for staking only")
-until it automatically sends a beacon. You can force the wallet to do so
-once it recognizes your CPID. Go to the debug console and do
-`advertisebeacon`.
-
-4. Once #3 is fulfilled, that node should be in the Network
-within 25 hours.
-
-Check the balance first and see how long the node has been online. Let
-the wallet run as often as you can, as it will increase your chance of staking.
 
 ## How to get out of the loop of cycling app crashes (Microsoft Visual C++ Runtime Library Assertion failed)?
 
