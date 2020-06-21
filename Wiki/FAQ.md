@@ -234,7 +234,6 @@ propagate.
 You only need one wallet for each BOINC account/CPID (Cross Project
 Identifier). Optionally, you can use an account manager to help maintain
 projects in under CPID and avoid CPID splits. Your reward is
-
 based on the credit on your CPID. You can point as many
 machines and resources to a single account as you want and only need a
 single wallet to receive your reward. You do have to set "email=" in the
