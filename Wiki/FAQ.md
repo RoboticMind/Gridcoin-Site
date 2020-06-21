@@ -232,8 +232,9 @@ propagate.
 ## I use BOINC with one username but on a few machines - is it enough to have one wallet with the proper boinc\_project\_email address, or do I have to have a separate wallet on each machine?
 
 You only need one wallet for each BOINC account/CPID (Cross Project
-Identifier). You can use an account manager to combine more
-projects in one CPID. Your reward is
+Identifier). Optionally, you can use an account manager to help maintain
+projects in under CPID and avoid CPID splits. Your reward is
+
 based on the credit on your CPID. You can point as many
 machines and resources to a single account as you want and only need a
 single wallet to receive your reward. You do have to set "email=" in the
