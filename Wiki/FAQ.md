@@ -17,9 +17,6 @@ You will see a lot of references to the data folder in this FAQ here are the def
 Almost all of your computing power can be directed at beneficial scientific and medical
 research while crunching Gridcoin.
 
-See the list of [Advantages &
-Features](Advantages_&_Features "wikilink").
-
 ## How could 'useful' work for a cryptocurrency be verified without repeating the work or trusting a central server?
 
 In Gridcoin, work units are given out by distributed project nodes
