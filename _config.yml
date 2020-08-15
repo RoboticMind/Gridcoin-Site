@@ -15,7 +15,7 @@ license_url: https://opensource.org/licenses/MIT
 #
 # Build settings
 #
-repository: gridcoin-community/Gridcoin-Site
+repository: RoboticMind/Gridcoin-Site
 exclude:
   - .travis.yml
   - Gemfile
