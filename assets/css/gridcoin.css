@@ -156,25 +156,6 @@ dfn{
 }
 /*----End index.htm----*/
 
-/*Blog.htm*/
-.blog {
-    padding-bottom: 15px;
-    padding-top: 130px;
-}
-.blog img{
-    width: 200px;
-}
-.blog > div > div div:last-of-type {
-    margin-bottom: 5px;
-}
-.blog > div > div div:last-of-type p{
-    margin-bottom: 10px;
-}
-.blog-content {
-    padding-bottom: 50px;
-}
-/*----End Blog.htm----*/
-
 /*Contact.htm*/
 .contact {
     padding-bottom: 20px;
@@ -442,4 +423,16 @@ dfn{
     width:0px;
     height: 0px;
     margin:0px;
+}
+
+.cookies-eu-banner {
+    width:inherit;
+    background: #7E11dE;
+    color: #fff;
+    padding: 6px;
+    font-size: 15px;
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+    z-index: 1040;
 }
